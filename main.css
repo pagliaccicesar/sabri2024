@@ -506,7 +506,10 @@ span{
         height: 100px;
         margin-top: 25px;
         float:none;
-    } 
+    }
+    .section-subheading {
+      padding-top: 25px;
+    }
 }
   
   .service-heading {
@@ -521,6 +524,11 @@ span{
   margin-top: 40px;
 }
 
+@media (max-width: 768px) {
+  .picself {
+    margin-top: 20px;
+  }
+}
 
   /* seccion portfolionuevo  */
 /*.charla {

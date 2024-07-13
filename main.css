@@ -189,6 +189,22 @@
     }
   }
 
+
+  /******  botones a otras secciones   *****/
+  .botonera_libro  {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 50px 0;
+    
+    
+  }
+
+  .botonera_libro .btn {
+    
+    border: 2px orange solid;
+    margin: 3px;
+  }
+
   /*************  prueba nuevo header o foto principal  *****************/
   /*.home {
     background: var(--primary);
@@ -287,7 +303,7 @@
 }
 
 /* Media query para dispositivos móviles */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .home {
     grid-template-columns: 1fr;
       padding: 6rem;
@@ -380,15 +396,26 @@ span{
 	
 	a{color: white}
 
+@media (max-width: 1250px) {
+  .card {
+      position: absolute;
+      width: 350px;
+      height: 230px;
+      padding: 10px;  
+      margin: auto;
+           
+    }
+}
+
 @media (max-width: 500px) {
   .card {
       position: absolute;
       width: 280px;
-      padding: 20px;  
+      height: 250px;
+      padding: 10px;  
       margin: auto;
-      /*left: 0;
-      right: 0;*/
-      
+      left: 0px;
+      right: 20px;    
     }
 }
 

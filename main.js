@@ -49,6 +49,10 @@
   
   })(jQuery); // End of use strict
 
+
+  
+  
+
   
   //  js de las card agregadas
 

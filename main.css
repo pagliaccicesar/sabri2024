@@ -525,8 +525,8 @@ span{
 }
 
 @media (max-width: 768px) {
-  .picself {
-    margin-top: 20px;
+  #publicacion {
+   margin-top: 5px;
   }
 }
 

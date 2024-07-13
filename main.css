@@ -33,9 +33,9 @@
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
-  section {
+  /*section {
     padding: 50px 0;
-  }
+  }*/
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -530,155 +530,7 @@ span{
   }
 }
 
-  /* seccion portfolionuevo  */
-/*.charla {
-    width: 100%;
-    height: auto;
-    display: block;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-  
-  .wrap {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-left: 20px;
-  }
-  
-  .portfolionuevo {
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-  }
-  .portfolionuevo li {
-    float: left;
-    width: 100%;
-    list-style: none;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-  }
-  .portfolionuevo figure {
-    margin: 0 20px 20px 0;
-    position: relative;
-    text-align: center;
-    border: 3px solid #000;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: url("http://www.seanmichael.me/bathtubgin/wp-content/themes/sean-michael-design/images/fancybox_overlay.png") repeat transparent;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-  .portfolionuevo figure:hover {
-    border: 3px solid #D29990;
-  }
-  .portfolionuevo figure:hover img {
-    opacity: .3;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    -moz-transform: scale(5);
-    -ms-transform: scale(5);
-    -webkit-transform: scale(5);
-    transform: scale(5);
-  }
-  .portfolionuevo figure:hover figcaption {
-    top: 50%;
-    margin-top: -20px;
-  }
-  .portfolionuevo figure:hover h3 {
-    bottom: 70%;
-  }
-  .portfolionuevo figcaption {
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    left: 0;
-    -moz-transition: all 0.2s ease-in-out 0.2s;
-    -o-transition: all 0.2s ease-in-out 0.2s;
-    -webkit-transition: all 0.2s ease-in-out;
-    -webkit-transition-delay: 0.2s;
-    transition: all 0.2s ease-in-out 0.2s;
-  }
-  
-  .portfolionuevo a {
-    background-color: #D29990;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    text-shadow: 0 -1px 1px #cd452f;
-    text-decoration: none;
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    display: inline-block;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  a:hover {
-    background-color: #e28e80;
-  }
-  
-  .portfolionuevo h3 {
-    color: #fff;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
-    font-weight: 500;
-    padding: 1em .7em;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    width: 100%;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    -moz-transition: all 0.15s ease-in-out 0.4s;
-    -o-transition: all 0.15s ease-in-out 0.4s;
-    -webkit-transition: all 0.15s ease-in-out;
-    -webkit-transition-delay: 0.4s;
-    transition: all 0.15s ease-in-out 0.4s;
-  }
-  
-  .tabs {
-    margin: 0 0 20px 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  .tabs li {
-    list-style: none;
-    float: left;
-    margin: 20px 20px 0 0;
-  }  
-  
-  @media (min-width: 460px) {
-    .portfolionuevo li {
-      width: 50%;
-      float:center;
-    }
-  }
-  @media (min-width: 740px) {
-    .portfolionuevo li {
-      width: 33%;
-      float:center;
-    }
-  }*/
+ 
   
   
   #portfolio .portfolio-item {
@@ -756,8 +608,7 @@ span{
     font-size: 16px;
     font-style: italic;
     margin: 0;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;   
   }
   
   #portfolio * {

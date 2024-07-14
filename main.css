@@ -642,7 +642,7 @@ span{
   .portfolio-modal .modal-content p.item-intro {    
     font-size: 16px;    
     margin: 5px 0 30px;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
@@ -853,7 +853,11 @@ span{
   blockquote p {
     font-weight: 200;
   }  
-
+  @media (max-width: 900px) {
+    article {
+      font-size: 0.8rem;
+    }
+  }
 
 
 
@@ -886,24 +890,17 @@ span{
         grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
     }
 }
-
-
-
-
   
-  @media (max-width: 900px) {
-    article {
-      font-size: 0.8rem;
-    }
-  }
 
   .modal {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 50px;
   }
 
   .modal a {    
     color: red;
   }
+  
 
   .popup__close {
     position: absolute;

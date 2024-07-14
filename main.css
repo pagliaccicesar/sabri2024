@@ -853,6 +853,43 @@ span{
   blockquote p {
     font-weight: 200;
   }  
+
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+    grid-template-rows: auto; /* Altura de filas automática */
+    gap: 10px; /* Espacio entre las celdas */
+}
+
+.item {   
+    /*background-color: #3498db;*/
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.item img {
+  width: 100%;
+}
+
+/* Media queries para hacer el diseño responsive */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+    }
+}
+
+
+
+
   
   @media (max-width: 900px) {
     article {

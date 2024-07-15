@@ -200,7 +200,8 @@
   }
 
   .botonera_libro .btn {
-    
+    font-size: small;
+    font-weight: 600;
     border: 2px orange solid;
     margin: 3px;
   }

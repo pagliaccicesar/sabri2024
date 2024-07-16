@@ -17,7 +17,7 @@
   
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
-      $('.navbar-collapse').collapse('hide');
+      $('.navbar-collapse').collapse('hide');          
     });
   
     // Activate scrollspy to add active class to navbar items on scroll
@@ -31,7 +31,7 @@
       if ($("#mainNav").offset().top > 100) {
         $("#mainNav").addClass("navbar-shrink");
       } else {
-        $("#mainNav").removeClass("navbar-shrink");
+        $("#mainNav").removeClass("navbar-shrink");       
       }
     };
     // Collapse now if page is not at top

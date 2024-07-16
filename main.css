@@ -1,26 +1,10 @@
-/*!
- * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+
  body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
+  }  
   p {
     line-height: 1.75;
-  }
-  
-  /*a {
-    color: rgb(254, 209, 54);
-  }
-  a:hover {
-    color: rgb(37, 3, 254);
-  }*/
-  
-  .text-primary {
-    color: rgb(254, 209, 54) !important;
   }
   
   h1,
@@ -31,8 +15,7 @@
   h6 {
     font-weight: 700;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
+  }  
   /*section {
     padding: 50px 0;
   }*/
@@ -41,7 +24,6 @@
     margin-top: 0;
     margin-bottom: 15px;
   }
-
   @media (max-width: 768px) {
     section h2.section-heading {
       font-size: 20px;
@@ -49,9 +31,6 @@
       margin-bottom: 15px;
     }
   }
-  
-
-
     h4 .intro-heading {
     font-size: 14px;
     font-weight: 400;
@@ -59,7 +38,6 @@
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
   }
   section h3.section-subheading {
     font-size: 16px;
@@ -68,24 +46,20 @@
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
+  }  
   @media (min-width: 768px) {
     section {
       padding: 50px 0;
     }
-  }
-  
+  }  
   .btn {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-  }
-  
+  }  
   .btn-xl {
     font-size: 18px;
     padding: 20px 40px;
-  }
-  
+  }  
   .btn-primary {
     background-color: rgb(37, 3, 254);
     border-color: rgb(37, 3, 254);
@@ -100,30 +74,24 @@
   .btn-primary:active,
   .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  }
-  
+  }  
   ::-moz-selection {
     background: #fed136;
     text-shadow: none;
-  }
-  
+  }  
   ::selection {
     background: #fed136;
     text-shadow: none;
-  }
-  
+  }  
   img::selection {
     background: transparent;
-  }
-  
+  }  
   img::-moz-selection {
     background: transparent;
-  }
-  
+  }  
   body {
     -webkit-tap-highlight-color: #fed136;
-  }
-  
+  }  
   #mainNav {
     background-color: #212529;
   }
@@ -189,44 +157,18 @@
     }
   }
 
-
   /******  botones a otras secciones   *****/
   .botonera_libro  {
     display: inline-block;
     justify-content: space-around;
-    padding: 50px 0;
-    
-    
+    padding: 50px 0;    
   }
-
   .botonera_libro .btn {
     font-size: small;
     font-weight: 600;
     border: 2px orange solid;
     margin: 3px;
-  }
-
-  /*************  prueba nuevo header o foto principal  *****************/
-  /*.home {
-    background: var(--primary);
-    box-shadow: var(--shadow);
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 14rem;
-}
-@media (max-width: 700px) {  
-  .home {
-      
-      padding: 20%;
-      
   }  
-  .home .btn {
-      display: block;
-      text-align: center;
-      margin: auto; 
-  }
-}*/
 .home {
   background: linear-gradient(orange, rgb(153, 21, 204));
     /*background-color:rgba(218,218,218,1) ;*/
@@ -235,74 +177,14 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 5rem;
 }
-
-/**********/
-
-/*.home .SideImg {
-  width: 30%;
-  margin: auto 10px;
-  margin-right: 100px;
-  position: relative;
-}
-
-.home .SideImg img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-
-
-.home .SideImg .top-right-corner,
-.bottom-left-corner {
-    position: absolute;
-}
-
-.home .bottom-left-corner {
-    left: -25%;
-    bottom: -20%;
-    rotate: -90deg;
-}
-
-.home .top-right-corner {
-    right: -120%;
-    top: -35%;
-    rotate: 90deg;
-}
-*
-.home .hr1 {
-    width: 150px;
-    height: 20px;
-    border: none;
-    background: #3b0298;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-.home .hr2 {
-    width: 20px;
-    height: 120px;
-    border-bottom-left-radius: 3px;
-
-    background: #3b0298;
-    border: none;
-    border-bottom-right-radius: 3px;
-}*/
-
-
-
-
-/********************/
-
 .home img {
   width: 85%;
   min-width: 300px; /* Ajusta este valor según el tamaño deseado de la imagen */
   margin: 30px auto; 
 }
-
 .home div {
   margin-top: 40px;
 }
-
 /* Media query para dispositivos móviles */
 @media (max-width: 800px) {
   .home {
@@ -320,8 +202,7 @@
   }
   .home img {
       width: 80%;
-      min-width: 220px; /* Puedes ajustar este valor para dispositivos móviles */
-      
+      min-width: 220px; /* Puedes ajustar este valor para dispositivos móviles */      
   }  
   .home div {
     margin-top: 10px;
@@ -329,19 +210,15 @@
 }
 
 /****************   cards   **************/
-
 /*.cards {
-
   background-color: orange;
 } */
-
 .card{
   width: 350px;
   padding: 30px;  
   margin: auto;
   transition: .3s ease;
-  box-shadow: 0 1px 1px rgba(0,0,0,.3);
-  
+  box-shadow: 0 1px 1px rgba(0,0,0,.3);  
   &:hover {
     box-shadow: 0 5px 20px rgba(0,0,0,.8);
     transform: translateY(-10px) scale(1.02);
@@ -360,13 +237,10 @@
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase; 
 }
-  
 a{
-    color: white;
-    text-decoration: none;
-  }
-
-
+  color: white;
+  text-decoration: none;
+}
 small{
   margin-top: 20px;
   display: block;
@@ -376,14 +250,12 @@ small{
 }
 a:link, a:visited, a:active {
   text-decoration:none;
+}  
+a:hover a:link a:visited{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
 }
-  
-  a:hover a:link a:visited{
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-  }
-
 span{
   display: block;
   margin-top: 10px;
@@ -392,29 +264,27 @@ span{
   color: rgb(153, 51, 204);
 }
 	
-	a{color: white}
+a{color: white}
 
 @media (max-width: 1250px) {
   .card {
-      position: absolute;
-      width: 350px;
-      height: 230px;
-      padding: 10px;  
-      margin: auto;
-           
-    }
+    position: absolute;
+    width: 350px;
+    height: 230px;
+    padding: 10px;  
+    margin: auto;           
+  }
 }
-
 @media (max-width: 500px) {
   .card {
-      position: absolute;
-      width: 280px;
-      height: 250px;
-      padding: 10px;  
-      margin: auto;
-      left: 0px;
-      right: 20px;    
-    }
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    padding: 10px;  
+    margin: auto;
+    left: 0px;
+    right: 20px;    
+  }
 }
 
 /***************  sobre mi   *************/ 
@@ -864,8 +734,6 @@ span{
     }
   }
 
-
-
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
@@ -895,18 +763,13 @@ span{
         grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
     }
 }
-  
-
   .modal {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 50px;
   }
-
   .modal a {    
     color: red;
   }
-  
-
   .popup__close {
     position: absolute;
     right: 0rem;

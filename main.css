@@ -51,7 +51,12 @@
     section {
       padding: 50px 0;
     }
-  }  
+  }
+  /*@media (max-width: 500px) {
+    section {
+      padding: 5px 0;
+    }
+  }  */
   .btn {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -214,14 +219,18 @@
 }
 @media (max-width: 500px) {
   .home {    
-      padding: 4rem;
+      padding: 2rem;
   }
   .home img {
       width: 80%;
       min-width: 220px; /* Puedes ajustar este valor para dispositivos móviles */      
   }  
   .home div {
-    margin-top: 10px;
+    margin-top: 1px;
+  }
+  .home p {
+    font-size: smaller;
+    text-align: justify;
   }
 }
 

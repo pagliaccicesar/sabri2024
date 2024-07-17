@@ -228,6 +228,9 @@
   .home div {
     margin-top: 1px;
   }
+  .home div .cards {
+    margin-top: 20px;
+  }
   .home p {
     font-size: smaller;
     text-align: justify;

@@ -16,17 +16,22 @@
 </head>    
     
     <body id="page-top">
-        <!-- Navigation -->
+       
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <h4 style="color: white; font-weight: 600; padding-right: 30px; text-shadow: 0 0 20px white;" class="intro-heading text-uppercase" href="#page-top">Sabrina Serer</h4>
                 
-                <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Nestor Dominguez</a>-->
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    
+                
+                <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">                    
                     <i class="fa fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                </button>-->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">             
+                
                     <ul class="navbar-nav text-uppercase ml-auto">
                       <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#page-top">Inicio</a>
@@ -42,25 +47,65 @@
                         </li>
                     </ul>
                 </div>
+            </button>
             </div>
         </nav>
+
+
+
+
+        
+ <!-- Agrega el atributo data-toggle y data-target al botón del navbar para activar el colapso 
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>-->
+
+<!-- Agrega la clase 'collapse' al div que contiene las opciones del menú -
+<div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+        
+    </ul>
+</div>-->
+
+<!--// Cerrar el navbar al hacer clic en una opción del menú en dispositivos móviles
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+Con estas modificaciones, el navbarResponsive colapsará automáticamente cuando el usuario seleccione una sección del menú en un dispositivo móvil. ¡Inténtalo y comprueba cómo funciona! ¿Hay algo más en lo que pueda ayudarte o alguna otra modificación que desees realizar? ¡Estoy aquí para asistirte en lo que necesites!-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         <section class="home">
             
            <img class="picself img-thumbnail" src="./img/sabrina_serer.png" alt="Sabrina Serer">
 
-            <div>
-                <!--<h2>Aca iría un título</h2>-->
-               <p style="color: rgb(78, 1, 78); font-weight: 600;">Soy contadora (UBA), Especialista en Administración Financiera del Sector Público (UNCO).</p>
-                <!--<p>Actualmente, me encuentro estudiando la Licenciatura en Relaciones Internacionales (SIGLO XXI) y en 
-                forma paralela, el Máster en Análisis Político (UOC Universitat Oberta de Catalunya).</p>-->
+            <div>                
+               <p style="color: rgb(78, 1, 78); font-weight: 600;">Soy contadora (UBA), Especialista en Administración Financiera del Sector Público (UNCO).</p>               
               
                 <p style="color: black;" >"La igualdad de género no es un destino, es un viaje. Revisá y ajustá tu presupuesto para un futuro más equitativo
                     Empezá a invertir en proyectos con impacto de género hoy mismo..."</p>
-
-                <!--<a href="#about" class="btn">Sobre mí</a>-->
-
-
+             
                 <div class="cards">
                     <div style="background-color: rgb(38, 39, 39);" class="card">
                         <h1 class="entry-title">
@@ -93,15 +138,12 @@
                             Asimismo, he sido designada representante provincial en la Comisión de Planificación, Evaluación y Calidad de las políticas públicas del 
                             CoFeFuP - Comisión Federal de la Función Pública dependiente de la Jefatura de Gabinete de Ministros de la República Argentina.                 
                       </div>
-                      <div class="col-md-4"><img class="picself img-thumbnail"  src="./img/perfil_sabrina_about.png" alt="Sabrina Serer"></div>
-                    
-                      
-                      <!--<div class="col-md-4"><img class="picself img-thumbnail"></div>-->
+                        <div class="col-md-4"><img class="picself img-thumbnail"  src="./img/perfil_sabrina_about.png" alt="Sabrina Serer"></div>                     
 
-                    <div class="botonera_libro">
-                            <a href="./soy.html" class="btn">Más de mi trayectoria</a>                               
-                            <a href="./vision.html" class="btn">Misión y Visión</a>
-                    </div>
+                        <div class="botonera_libro">
+                                <a href="./soy.html" class="btn">Más de mi trayectoria</a>                               
+                                <a href="./vision.html" class="btn">Misión y Visión</a>
+                        </div>
         
                       
                     </div>
@@ -128,10 +170,8 @@
                         <div class="botonera_libro">
                                 <a href="./libro.html" class="btn">Más sobre el libro</a>                                
                                 <a href="./venta.html" class="btn">Comprar el libro</a>
-                        </div>
-                        
+                        </div>           
                       
-                      <!--<div class="col-md-4"><img class="picself img-thumbnail"></div>-->
                     </div>
                 </div>
             </div>
@@ -149,11 +189,7 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span><img src="./img/publicacion1.png" alt=""></span>
-                        <!--<span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa fa-folder-open fa-stack-1x fa-inverse"></i>
-
-                </span>-->
+                      
                         <h4 class="service-heading">#EquidadDeGénero</h4>
                         <p class="text-muted">La educación financiera no discrimina. Descubrí nuestros recursos para aprender sobre finanzas sin importar tu género. 
                             Tu presupuesto debería reflejar la igualdad. Aprende cómo lograrlo aquí.Empezá a invertir en proyectos con impacto de género hoy mismo!
@@ -162,11 +198,8 @@
                             creamos un futuro más igualitario. .</p>
                     </div>
                     <div class="col-md-4">
-                        <span><img src="./img/publicacion2.png" alt=""></span>
-                        <!--<span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa fa-arrows-alt fa-stack-1x fa-inverse"></i>
-                </span>-->
+                        <span><img src="./img/publicacion2.png" alt="Sabrina Serer"></span>
+                       
                         <h4 class="service-heading">#FuturoMasIgualitario</h4>
                         <p class="text-muted">Inversiones con impacto de género:<br> Investigá opciones de inversión que respalden proyectos y empresas que promuevan la igualdad
                              de género. Protegé tu futuro con un seguro que entienda tus necesidades. Empezá a invertir en proyectos con impacto de género hoy mismo!
@@ -175,11 +208,8 @@
                             un futuro más igualitario. </p>
                     </div>
                     <div class="col-md-4">
-                        <span><img src="./img/publicacion3.png" alt=""></span>
-                        <!--<span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
-                </span>-->
+                        <span><img src="./img/publicacion3.png" alt="Sabrina Serer"></span>
+                       
                         <h4 class="service-heading">#AhorroParaEmergencias</h4>
                         <p class="text-muted">Ahorro para emergencias de género:<br> Asegúrate de que todos tengan acceso a un fondo de emergencia, independientemente de su género.
                              Empezá a invertir en proyectos con impacto de género hoy mismo!
@@ -253,7 +283,7 @@
         <br>
         <br>    
          
-        <!-- Contact -->   <!--Aca eeta el viejo formulario que se va a reactivar cuando esten aviso legal y privacidad-->
+        <!-- Contact -->   
                
         <section id="contact">            
             <div class="container">                
@@ -263,7 +293,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12">                        
                         <form action="form.php" method="post" name="contactform" id="contactForm" novalidate>
                             <div class="row">
                                 <div class="col-md-6">                                    
@@ -288,11 +318,8 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
-                                    <div id="success"></div>
-                                    <!--<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Submit">Enviar mensaje</button>-->
-
+                                    <div id="success"></div>                                   
                                     <button id="sendMessageButton" class="botonera_form" type="submit" value="Submit">Enviar mensaje</button>
-                                    
                                 </div>
                             </div>
                         </form>
@@ -353,9 +380,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <!--h2 class="text-uppercase">Feria del libro 22/09/22</h2>-->
+                                <div class="modal-body">                                                                       
                                     <p class="item-intro text-muted">Presentación del libro en la Universidad Nacional del Comahue 09/09/2022</p>
                                     <div class="grid-container">
                                         <div class="item"><img src="./img/unco1.png" alt="sabrina serer"></div>
@@ -366,9 +391,7 @@
                                         <div class="item"><img src="./img/unco6.png" alt="sabrina serer"></div>         
                                         <div class="item"><img src="./img/unco7.png" alt="sabrina serer"></div>
                                         <div class="item"><img src="./img/unco8.png" alt="sabrina serer"></div>                                        
-                                    </div>
-                                    <!--<img class="img-fluid d-block mx-auto" src="https://preview.ibb.co/haxqFw/nileres.jpg" alt="">-->
-                                    <!--<p>In this project, I coordinated with other developers to modified the front end of the website. Did some debugging and UI.</p>-->
+                                    </div>                                   
                                     
                                         <a class="botonera_form" data-dismiss="modal" type="button">
                                             <i class="fa fa-times"></i> Cerrar galeria</a>
@@ -391,9 +414,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <!--h2 class="text-uppercase">Feria del libro 22/09/22</h2>-->
+                                <div class="modal-body">                                   
                                     <p class="item-intro text-muted">Feria del libro Ciudad de Neuquén 22/09/22</p>
                                     <div class="grid-container">
                                         <div class="item"><img src="./img/nqn_feria1.png" alt="sabrina serer"></div>
@@ -402,9 +423,7 @@
                                         <div class="item"><img src="./img/nqn_feria4.png" alt="sabrina serer"></div>        
                                         <div class="item"><img src="./img/nqn_feria5.png" alt="sabrina serer"></div>                                                                               
                                     </div>
-                                    <!--<img class="img-fluid d-block mx-auto" src="https://preview.ibb.co/haxqFw/nileres.jpg" alt="">-->
-                                    <!--<p>In this project, I coordinated with other developers to modified the front end of the website. Did some debugging and UI.</p>-->
-                                    
+                                                                       
                                     <a class="botonera_form" data-dismiss="modal" type="button">
                                             <i class="fa fa-times"></i> Cerrar galeria</a>
                                 </div>
@@ -426,9 +445,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <!--h2 class="text-uppercase">Feria del libro 22/09/22</h2>-->
+                                <div class="modal-body">                                    
                                     <p class="item-intro text-muted">Presentación Feria del libro Cipolletti 03/10/2022</p>
                                     <div class="grid-container">
                                         <div class="item"><img src="./img/cipo1.png" alt="sabrina serer"></div>
@@ -437,9 +454,7 @@
                                         <div class="item"><img src="./img/cipo4.png" alt="sabrina serer"></div>        
                                         <div class="item"><img src="./img/cipo5.png" alt="sabrina serer"></div>
                                         <div class="item"><img src="./img/cipo6.png" alt="sabrina serer"></div>                                                                               
-                                    </div>
-                                    <!--<img class="img-fluid d-block mx-auto" src="https://preview.ibb.co/haxqFw/nileres.jpg" alt="">-->
-                                    <!--<p>In this project, I coordinated with other developers to modified the front end of the website. Did some debugging and UI.</p>-->
+                                    </div>                                  
                                     
                                     <a class="botonera_form" data-dismiss="modal" type="button">
                                         <i class="fa fa-times"></i> Cerrar galeria</a>
@@ -464,13 +479,7 @@
         <!-- Custom scripts for this template -->
         <script src="js/agency.min.js"></script>
     </body>
-    
-   
 
-
-
-
-    <script src="./main.js"></script>
-    
+    <script src="./main.js"></script>    
 
 </html>
